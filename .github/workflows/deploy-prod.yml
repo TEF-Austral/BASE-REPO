@@ -53,7 +53,7 @@ jobs:
           echo "Repository: ${{ github.repository }}"
           echo "Event: ${{ github.event_name }}"
 
-      # ========== BUILD & PUSH DOCKER ==========
+      # ========== BUILD & PUSH DOCKER ========== #
       - name: Set image name
         id: image
         run: |
